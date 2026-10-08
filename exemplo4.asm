@@ -4,7 +4,7 @@
 x: .word 20 			# Variável x inicializada com o valor 20
 y: .word				# Variável y não inicializada
 
-.text
+.text					# Muda para a seção .text (código)
 	li t1, 10			# Carrega o valor constante 10 no registrador t1
 	lw a1, x			# Carrega o valor x da memória no registrador a1
 	blt a1, t1, else 	# Desvia para o rótulo else se a1<t1
