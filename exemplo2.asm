@@ -2,9 +2,9 @@
 
 .data # Muda para a seção .data (dados)
 
-x: .word 10     # Variável inicializada com o valor 10 (4 bytes)
-y: .word 10     # Variável inicializada com o valor 10 (4 bytes)
-z: .word        # Variável não inicializada
+x: .word 10         # Variável inicializada com o valor 10 (4 bytes)
+y: .word 10         # Variável inicializada com o valor 10 (4 bytes)
+z: .word            # Variável não inicializada
 
 .text # Muda para a seção .text (código)
  lw a0, x           # Carrega o valor x da memória no registrador a0
