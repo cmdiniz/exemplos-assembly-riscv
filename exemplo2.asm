@@ -1,12 +1,11 @@
 # Exemplo 2
 
-.data # Muda para a seção .data (dados)
-
+.data               # Muda para a seção .data (dados)
 x: .word 10         # Variável x inicializada com o valor 10 (4 bytes)
 y: .word 10         # Variável y inicializada com o valor 10 (4 bytes)
 z: .word            # Variável z não inicializada
 
-.text # Muda para a seção .text (código)
+.text               # Muda para a seção .text (código)
  lw a0, x           # Carrega o valor x da memória no registrador a0
  lw a1, y           # Carrega o valor y da memória no registrador a1
  add a0, a0, a1     # Soma o conteúdo dos registradores a0 e a1, coloca o resultado no registrador a0
