@@ -2,8 +2,8 @@
 
 .data 					# Muda para a seção .data (dados)
 
-x: .word 20 			# Variável inicializada com o valor 20
-y: .word    			# Variável não inicializada
+x: .word 20 			# Variável x inicializada com o valor 20
+y: .word    			# Variável y não inicializada
 
 .text
 	li t1, 10			# Carrega o valor constante 10 no registrador t1
