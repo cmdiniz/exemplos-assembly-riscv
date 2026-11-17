@@ -17,7 +17,7 @@ main:                   # Programa principal
 
 max:                    # Sub-rotina (função) int max(int a, int b)
     
-    bge a0, a1, a_maior # se a>b, salta para a_maior
+    bge a0, a1, a_maior # se a>=b, salta para a_maior
     mv a0, a1           # b maior, move para a0
     ret                 # retorna da sub-rotina
 
