@@ -10,9 +10,9 @@ f: .word                    # Variável f não inicializada
 .text                       # Muda para a seção .text (código)
 
 main:                       # Programa principal
-    li t0, 45
-    li t1, 54
-    li s0, 34
+    li t0, 45               # Carrega um valor qualquer em t0 para ver ele ser salvo na pilha e recuperado depois
+    li t1, 54               # Carrega um valor qualquer em t1 para ver ele ser salvo na pilha e recuperado depois
+    li s0, 34               # Carrega um valor qualquer em s0 para ver ele ser salvo na pilha e recuperado depois
     lw a0, g                # Carrega o primeiro argumento da função (variável g) no registrador a0
     lw a1, h                # Carrega o segundo argumento da função (variável h) no registrador a1
     lw a2, i                # Carrega o terceiro argumento da função (variável i) no registrador a2
