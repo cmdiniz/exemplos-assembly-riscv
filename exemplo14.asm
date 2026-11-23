@@ -2,7 +2,7 @@
 # https://riscv-programming.org/book/riscv-book.html
 
 .data                   # Muda para a seção .data (dados)
-   y: .word             # Variável y não inicializada
+   y: .word 4            # Variável y inicializada com valor 4
 
 .globl main             # Indica que a função principal é main
 
